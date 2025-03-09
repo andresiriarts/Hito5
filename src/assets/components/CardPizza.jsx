@@ -20,7 +20,7 @@ const CardPizza = ({ pizza }) => {
       <hr className="separacion" />
       <h2 className="price">Precio: ${pizza.price.toLocaleString("es-CL")}</h2>
       <section className="botones">
-        <button className="vermas"> <Link to='/Pizza'>Ver Más 👀</Link></button>
+        <button className="vermas"> <Link to='/pizza/p001'>Ver Más 👀</Link></button>
         <button className="añadir">Añadir 🛒</button>
       </section>
     </div>

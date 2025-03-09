@@ -185,3 +185,38 @@ button {
   display: flex;
   flex-direction: column;
 }
+
+/* 404 */
+
+.container-404 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.img404 {
+  height: 50%;
+  width: 30%;
+}
+
+/* Profile */
+
+.container-profile {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.btn-cerrar-sesion {
+  border: none;
+  border-radius: 10px;
+  background-color: #56c5f8;
+}

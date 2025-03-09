@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const total = 25000;
-  const token = false;
+  const token = true;
 
   return (
     <div className="menu">
