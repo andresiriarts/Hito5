@@ -5,8 +5,9 @@ import Register from './assets/pages/Register'
 import Home from './assets/pages/Home'
 import Cart from './assets/pages/Cart'
 import Pizza from './assets/pages/Pizza'
-/* import Profile from './assets/pages/Profile' */
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import NotFound from './assets/pages/NotFound'
+import Profile from './assets/pages/Profile'
 
 
 const App = () => {
@@ -20,9 +21,8 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/pizza/p001' element={<Pizza />} />
-          {/* <Route path='/profile' element={<Profile />} /> */}
-          <Route path='/404' element={<Home />} />
-          
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/404' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
       <Footer />
